@@ -4,7 +4,7 @@ $(document).ready(function () {
   $img = $('.car img');
   let flag = true;
 
-  const cars = ['img/Img_05.png,img/Img_06.png'];
+  const cars = ['img/Img_05.png', 'img/Img_06.png'];
 
 
   //keypress event 
@@ -19,7 +19,7 @@ $(document).ready(function () {
   $(document).on('keypress', function (e) {
     if (e.which == 119) {
       if (flag) {
-        flag = flase;
+        flag = false;
         $img.attr('src', cars[0]);
       } else {
         flag = true;
