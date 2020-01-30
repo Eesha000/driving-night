@@ -16,7 +16,7 @@ body {
   width: 100%;
   /* border: 1px solid black; */
   /* margin: 5rem auto; */
-  background: url("/img/Img_1.png") no-repeat center center/cover;
+  background: url("img/Img_1.png") no-repeat center center/cover;
   position: relative;
   box-shadow: 1px 2px 60px rgba(0,0,0,0.4);
   overflow-x: hidden;
