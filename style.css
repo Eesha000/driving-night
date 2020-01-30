@@ -25,7 +25,7 @@ body {
 .surface {
   height: 140px;
   width: 500%;
-  background: url("/img/Img_02.png");
+  background: url("img/Img_02.png");
   display: block;
   position: absolute;
   bottom: 0;
